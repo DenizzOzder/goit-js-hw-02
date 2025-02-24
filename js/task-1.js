@@ -1,4 +1,4 @@
-
+console.log("JS1 -----------------------------------");
 function makeTransaction(quantity, pricePerDroid, customerCredits)
 {
     const totalprice = quantity*pricePerDroid;
