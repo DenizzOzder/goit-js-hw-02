@@ -1,4 +1,5 @@
 console.log("JS-4 -----------------------------------");
+
 function getShippingCost(country)
     {
         let price;
@@ -21,7 +22,7 @@ function getShippingCost(country)
                 return `Shipping to ${country} will cost ${price} credits`;
                 break;
             default:
-                return `Shipping to ${country} will cost ${price} credits`;
+                return `Sorry, there is no delivery to your country`;
                 break;
         }
     }
